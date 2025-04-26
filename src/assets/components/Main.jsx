@@ -1,9 +1,17 @@
-import React from 'react'
 
-const Main = () => {
+const Main = ({ alumno }) => {
   return (
-    <div>Main</div>
-  )
-}
+    <div>
+      <h3>Soy Alumno de la UTN</h3>
+      <img src={alumno.imagen} alt="" />
+      <p>
+        Nombre:{alumno.nombre} <br />
+        Apellido: {alumno.apellido} <br />
+        Edad:{alumno.edad} <br />
+        Descripcion:{alumno.desc} <br />
+      </p>
+    </div>
+  );
+};
 
-export default Main
+export default Main;

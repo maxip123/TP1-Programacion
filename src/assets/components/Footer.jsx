@@ -1,8 +1,11 @@
-import React from 'react'
+
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <h4>Redes:</h4>
+      <a href="red">ig</a>
+    </div>
   )
 }
 
